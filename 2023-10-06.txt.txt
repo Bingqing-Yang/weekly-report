@@ -1,1 +1,3 @@
-It will update on oct 8.
+Done:
+Learn about S3;
+Simulation data on array2rnaseq project
