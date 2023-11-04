@@ -1,0 +1,22 @@
+Done:
+1. Read the paper;
+2. Learn rationale of Quadratic Programming;
+3. Organize the formula;
+4. Write markdown but need more refinement;
+
+Todo:
+1. Implement the WLS and exp(G(X));
+2. Plot the curve of expG((X));
+3. Communicate with Noel about the project;
+
+Counts of your question with "?": 17
+Counts of my answer: 7
+
+1. Answer every question with "?";
+2. Focuse on my own project, do not care about other;
+3. Think deeper and better;
+
+
+
+
+
