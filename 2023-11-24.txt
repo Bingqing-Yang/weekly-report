@@ -1,0 +1,9 @@
+Done:
+1. log(|res|) looks better when contrast log(|res|) and log(res^2) of genes fitted in linear model;
+2. scatter plot log(|res|) seems nonlinear trend, so I use loess to fit it and select the optimal span by MSE in leave-one-out cross validation;
+3. Finish the duties of setup-linux on github;
+4. Configuring tmux shortcuts
+
+Todo:
+1. Look at scatter plot with PI based on loess;
+2. Check SCAM;
