@@ -1,0 +1,9 @@
+Done:
+1. Learn basic command on linux;
+2. Organize and write .md about understanding of Heteroscedasticity;
+3. Download data about noel;
+4. Check PI on scam;
+
+Todo:
+1. Find genes with heteroscedasticity;
+2. Organize class of genes according to residual plot;
