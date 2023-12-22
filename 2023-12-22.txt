@@ -1,0 +1,9 @@
+Done:
+1. prepare powerpoint;
+2. check the code;
+
+
+Todo:
+1. check and modify all problems talking in last meeting;
+2. git push to repo and discuss about it;
+3. keep habbit of recording on trello;
