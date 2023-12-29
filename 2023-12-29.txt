@@ -1,0 +1,9 @@
+Done:
+1. Calculate is the points inside the prediction interval suitable to confidence level;
+2. Modify powerpoint;
+3. Check code;
+4. Modify general addictive model notes;
+
+Todo:
+1. Make sure code is right;
+2. Prepare material for next meeting;
