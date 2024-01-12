@@ -1,0 +1,37 @@
+Done:
+1. Update .Rm about project;
+2. Modify code:
+    1) Delete loess_kd by caret;
+    2) Adjust using AIC to choose optimal "span" in loess, loess_aic;
+    3) Check "level" in prediction interval: 1-alpha/2 = 1-(1-level)/2;
+    4) Modify log = “TRUE”to log = TRUE;
+    5) Combine raw scatter plot and residual scatter plot in a pic;
+3. Calculate AIC for different residual model:
+    1) It shows: r2_loess_noexp > r_loess_noexp > r_loess > r2_loess
+    2) Look at scatter plot of first 200 genes;
+    3) Double check does r2_loess_noexp > r2_loess:
+             Without log: 
+                   Better to depict change fluctuations in residuals
+                   More robust;
+             Log: 
+                   Normalize change
+                   More flexible
+        Pick scatter plot(raw scatter plot and residual scatter plot) of particular genes for us to understand the divergence of without log and log;
+    4) Double check does r2_loess_noexp > r_loess_noexp:
+4. Check does it occure negative in R^2 is because of different formular:
+      For linear model, value of R^2 calculate by 1 - SSE/SST is equal to SSR/SST;
+      For non linear model, value of R^2 calculated by 1 - SSE/ SST would have negative, but for value calculated by SSR/SST is still positive; 
+5. Plot workflow of ovarian cancer
+6. Communicate about ovarian cancer and make todo list;
+
+Todo:
+Array2rnaseq: 
+        1. Show result to david;
+        2. Finish code readability; 
+Ovarian cancer:
+	1. Organize my understing about this project;
+	2. Understand code include: steps of readload, procress until to expression data on both platform;
+	3. Run and understand the code including batch effect removal and deconvolution;
+	4. Look at phenotype data, try to search information needed compare to current data;
+
+	 
