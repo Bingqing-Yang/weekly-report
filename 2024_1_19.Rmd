@@ -1,0 +1,85 @@
+---
+title: "Report"
+author: "Bingqing Yang"
+date: "2024-1-19"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+  html_document:
+    toc: true
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. Choosing four residual models:
+
+`res2_loess`,`res2_loess_noexp`,`res_loess`,`res_loess_noexp`. It does not contain linear model.
+
+-   For some genes, using linear model to explain their variation is not suitable;
+
+-   For other genes, linear model as residual model is suitable, but loess model includes that one;
+
+## 2. Check does different residual models have significant difference among first 200 genes:
+
+-   Boxplot:
+
+    From the boxplot we could know that different residual models do not have obvious overlap.
+
+    ![](images/anova_residual_models.png){width="400"}
+
+\newpage
+
+-   One-way ANOVA test:
+
+    From the table, $p-value \ll 0$, we could known that different residual models have significant difference.
+
+|            |  Df  | Sum Sq | Mean Sq | F value | Pr(\>F) |
+|------------|------|--------|---------|---------|---------|
+| Model_name |  3   | 7416   | 2472.0  | 4321    | \<2e-16 |
+| Residuals  |  796 | 455    | 0.6     |         |         |
+
+## 3. Comparing four residual models among first 200 genes:
+
+We could conclude that `res2_loess_noexp` is the best residual model from AIC. The rate of being in prediction interval is about $0.95$ when level is equal to $0.95$, but the rate of being in prediction interval slightly higher than $0.5$ when level is equal to $0.5$.
+
+|               | res2_loess | res2_loess_noexp | res_loess | res_loess_noexp |
+|---------------|------------|------------------|-----------|-----------------|
+| AIC           | 2.616241   | -4.721434        | 1.229946  | -3.277581       |
+| Ratio_in_0.95 | 0.714966   | 0.9517857        | 0.714966  | 0.8890986       |
+| Ratio_in_0.5  | 0.2853571  | 0.5227211        | 0.2853571 | 0.4206122       |
+
+## 4. Generating scatter plots of that four residual models among first 200 genes:
+
+-   Look at four .pdf files;
+
+## 5. Selecting genes that show much discrepancy between different type of residual models among first 200 genes:
+
+-   `res2_loess_noexp` VS `res2_loess`:
+
+    residual model without log is much robust but the other is flexible, showing poor generalization ;
+
+    residual model without log is more representative of fluctuations in variance changes;
+
+-   `res2_loess_noexp` VS `res_loess_noexp`:
+
+## 6. Checking why $R^{2}$ is negative:
+
+-   For non-linear model:
+
+    $R^2$ maybe negative if it was calculated by $1 - \frac{SSE}{SST}$;
+
+    $R^2$ would be positive if it was calculated by $\frac{SSR}{SST}$;
+
+## 7. Finished the first step of transaction and getting to know batch effect removal
+
+## 8. TODO:
+
+-   Understand and run the code of batch effect removal, includeing rank, combat, quantile, normalize against sensitive group, PCA plot;
+
+-   Understand and run the code of deconvolution, including GTM-decon, deMixT, Cibersortx;
+
+-   Revise my project and consult to professor;
