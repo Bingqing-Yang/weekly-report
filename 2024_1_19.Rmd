@@ -37,10 +37,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
     From the table, $p-value \ll 0$, we could known that different residual models have significant difference.
 
-|            |  Df  | Sum Sq | Mean Sq | F value | Pr(\>F) |
-|------------|------|--------|---------|---------|---------|
-| Model_name |  3   | 7416   | 2472.0  | 4321    | \<2e-16 |
-| Residuals  |  796 | 455    | 0.6     |         |         |
+|            | Df  | Sum Sq | Mean Sq | F value | Pr(\>F) |
+|------------|-----|--------|---------|---------|---------|
+| Model_name | 3   | 7416   | 2472.0  | 4321    | \<2e-16 |
+| Residuals  | 796 | 455    | 0.6     |         |         |
 
 ## 3. Comparing four residual models among first 200 genes:
 
@@ -66,13 +66,13 @@ We could conclude that `res2_loess_noexp` is the best residual model from AIC. T
 
 -   `res2_loess_noexp` VS `res_loess_noexp`:
 
-## 6. Checking why $R^{2}$ is negative:
+## 6. Reflect why what I calculate $R^{2}$ is negative:
 
--   For non-linear model:
+The detail below is wrong, please omit that.
 
-    $R^2$ maybe negative if it was calculated by $1 - \frac{SSE}{SST}$;
+-   Do not understand the definition of $R^2$;
+-   Do not understand the definition of residual model;
 
-    $R^2$ would be positive if it was calculated by $\frac{SSR}{SST}$;
 
 ## 7. Finished the first step of transaction and getting to know batch effect removal
 
@@ -83,3 +83,11 @@ We could conclude that `res2_loess_noexp` is the best residual model from AIC. T
 -   Understand and run the code of deconvolution, including GTM-decon, deMixT, Cibersortx;
 
 -   Revise my project and consult to professor;
+
+## **Modification on item 6**
+
+credit from David:
+
+-   $R^2 = 1 - SSE/SST$ is not a universal equation, and it relies on assumptions that are not met. So the use of fomular $R^2 = 1 - SSE/SST$ is not right.
+
+-   Instead of using $R^2$, try to use $RMSE$ because it is more reliable when the model is not linear.
