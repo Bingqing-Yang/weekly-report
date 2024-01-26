@@ -1,0 +1,12 @@
+Done:
+1. Finish ovarian project on the part of batch effect removal;
+2. Download data and packages needed in deconvolution;
+3. Finish using RMSE to select "span";
+4. Finish the reading on page 34 of Bayesian Statistics;
+5. Revise the array2rnaseq report;
+
+
+Todo:
+1. Understand the code about decnvolution;
+2. Move on array2rnaseq report;
+3. Report;
