@@ -1,0 +1,9 @@
+Done:
+1. k-fold cross vilidation;
+2. calculate ratio falled in prediction interval;
+3. write .Rm about project for next meeting;
+4. review probability theroy chapter 2;
+
+Todo:
+1. Improve code readability;
+2. discuss code with coworker;
