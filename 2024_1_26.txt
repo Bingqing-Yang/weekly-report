@@ -1,0 +1,20 @@
+Done:
+1. Finish ovarian project on the part of batch effect removal;
+	- Organize phenotype data;
+	- Generate reference data;
+	- Quantile normalization;
+	- ComBat;
+2. Download data and packages needed in deconvolution;
+	- Create account for CIBERSORTx;
+	- Download scRNA-seq data;
+3. Finish using RMSE to select "span";
+	- Please look at ```loess_kd``` function in https://github.com/Bingqing-Yang/array2rnaseq/blob/main/R/models.R
+4. Finish the reading on page 34 of Bayesian Statistics;
+5. Revise the array2rnaseq report;
+	- Write a workflow;
+	- Modify natation;
+
+Todo:
+1. Understand the code about decnvolution;
+2. Move on array2rnaseq report;
+3. Report;
