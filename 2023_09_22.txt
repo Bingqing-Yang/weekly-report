@@ -1,0 +1,21 @@
+Done:
+1. For linear probes, BP-test to detect heteroskedasticity;
+2. For those linear probes with heteroskedasticity using weighted least square to generate prediction Interval;
+3. Optimized code to 220 lines;
+
+TODO:
+1. Keep on moditying code;
+2. Find a quantitative methods to detect heteroskedasticity in nonlinear probes, residual plot is blurry;
+3. Derivation formula of PI in weight-scam;
+
+
+9.24：
+Question:
+1. why the predicted line of weighted-scam is stange?
+2. does have anyone to quantify heteroskedasticity of nonlinear model?
+
+Find:
+1. choose negative square of model residual as weights in scam(), and heteroskedasticity seems better from residual plot but AIC of weight-scam increased;
+2. even weighted-scam, heteroskedasticity still appear in residual plot;
+
+
