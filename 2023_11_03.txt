@@ -1,0 +1,32 @@
+Done:
+1. Read the paper;
+2. Learn rationale of Quadratic Programming;
+3. Organize the formula;
+4. Write markdown but need more refinement;
+
+Todo:
+1. Implement the WLS and exp(G(X));
+2. Plot the curve of expG((X));
+3. Communicate with Noel about the project;
+
+Counts of your question with "?": 17
+Counts of my answer: 7
+
+Dear Professor David,
+
+I went through the text exchange a few times and try to identify the gap. Please see below for the items that I think that I should pay attention to. Please let me know if anything else needs to be added. 
+
+
+1. Identify the issue and communicate clearly with more detail. For examples the inaccessible link. Provide the feedback more rapidly. 
+2. Get my priorities correct, for instance, My assignment is more important than persuading noel. 
+3. Follow standard procedure, for example, use git instead of downloading the file. 
+4. Avoid making assumptions and communicate directly. Eg, assuming that you won’t needed to be informed after the link is accessible.
+
+I feel that I am still have some language barriers after 2 months in school. Myself is also frustrated and sometimes gets distracted. I am very concerned that you mentioned about my probation, but I appreciate your direct communication. 
+
+Thank you and looking forward to hearing your feedback.
+
+
+
+
+
