@@ -1,0 +1,15 @@
+Done:
+1. Organized note about prediction interval under heteroscedasticity;
+2. Write code about WLS;
+
+
+Finding:
+1. The residual of wls is homogeneous but p-value of bptest is much small when implement linear model between exp(residual^2) and X;
+2. degree freedom of residual on SCAM is given, why considered it as dim(X)[1] - length(coef(scam));
+
+
+Todo：
+define A as the data which has samall p-value of bptest after ols and wls
+1. look at true data about residual plot in original ols and wls;
+2. how to deal with A; 
+3. look at scatter plot of A, whether it follow linear regression;
