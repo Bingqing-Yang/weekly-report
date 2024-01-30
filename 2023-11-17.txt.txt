@@ -1,7 +1,0 @@
-Done:
-1. Organize the .Rmd file about WLS;
-2. linear model in residual plot shows so much low cor(about 0.1) and R^2(0.01);
-
-Todo:
-1. calculate cor and AIC for linear model assign dependent variable as log(res^2), log(|res|), |res|, res^2
-2. look at the scatter plot above;
