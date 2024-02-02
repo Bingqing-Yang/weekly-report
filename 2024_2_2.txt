@@ -12,7 +12,9 @@ DONE:
 	4. Modify report;
 		- Add proof of why \frac{n\hat{\sigma}^2}{\sigma^2} \sim \chi^2_{N-K}
 	5. Run gtm-decon deconvolation
-
+		- inputs
+		- deconvolution
+		- validation
 TODO：
 	1. Continue on ovarian project;
 	2. Check formular in my report;
