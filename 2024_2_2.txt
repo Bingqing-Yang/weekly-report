@@ -1,0 +1,19 @@
+DONE:
+	1. Talk about my project to Noel and Wenhao;
+	2. Modify and check as per their suggestions:
+		- Remove return() in models.R/generate_y function
+		- Check stopifnot() in predict.array2rnaseq();
+		- Modify if (isTRUE(log_trans)) to if (log_trans);
+		- Rename log to log_trans;
+		- Use defined AIC to calculate AIC(loess);
+			○ Defined AIC does not support LOESS;
+		- Check degree of freedom in two situations in lm_map;
+	3. Check aicc function for calculating AICc of loess, add related information, paper and link;
+	4. Modify report;
+		- Add proof of why \frac{n\hat{\sigma}^2}{\sigma^2} \sim \chi^2_{N-K}
+	5. Run gtm-decon deconvolation
+
+TODO：
+	1. Continue on ovarian project;
+	2. Check formular in my report;
+	3. Write a report about the project result;
