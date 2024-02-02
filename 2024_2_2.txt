@@ -9,6 +9,8 @@ DONE:
 			○ Defined AIC does not support LOESS;
 		- Check degree of freedom in two situations in lm_map;
 	3. Check aicc function for calculating AICc of loess, add related information, paper and link;
+		- https://academic.oup.com/jrsssb/article-abstract/60/2/271/7083103
+		- https://gist.github.com/kylebgorman/6444612
 	4. Modify report;
 		- Add proof of why \frac{n\hat{\sigma}^2}{\sigma^2} \sim \chi^2_{N-K}
 	5. Run gtm-decon deconvolation
