@@ -1,0 +1,26 @@
+
+Done:
+* About deMixT:
+	run qc_patients.R, quality check about patients
+	run select_differential_genes.R, fing differential genes among tumor and normal samples
+	run ground_truth/ref_all_patients/run_demixt.R, demixt deconvolution
+	run evaluate.R , scatter plot
+	run fpkm/run_demixt.R, run demixt on tcga_ov data without normalization 
+	run normalized_counts/run_demixt.R, run demixt on tcga_ov data with normalized 
+	run compare_purity.R, compare tumor proportion
+* About CIBERSORTx:
+	run tcga_ov/extract_tcga.R
+	run tcga_ov/prepare_inouts.R
+	run prepare_gene_subset.R
+	use files generated above run deconvolution on CIBERSORTx website: https://cibersortx.stanford.edu/jobs.php
+	run compare_purity.R, generate scatter plot
+* GSVA
+	run gsva/gsva.R,
+	run gsva/heatmap.R look at the result with high variation
+* GSEA
+	run gsea/inputs.R, prepare patients annotation and gene expression for running
+	run gsea.R, gene set enrichment analysis
+
+Todo:
+* meet with co-worker on monday talking about the following ovarian project;
+* finish progress report;
