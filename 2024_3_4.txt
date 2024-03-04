@@ -1,0 +1,22 @@
+Done:
+1. Communicate with noel;
+	* check result about project;
+2. Organize understanding about code
+	* https://connecthkuhk-my.sharepoint.com/:x:/g/personal/yangbq_connect_hku_hk/EaYvZybI8HhCjvgK37CWG5gByevWrywii9MlIPmbbcA_pw?e=hYYRXg&nav=MTVfe0IzMjdGNTIyLTBEMUUtNEE3RC05NjE1LUI5QzhEMTRBNTU2Qn0
+	* source of the dataset: noel organize .pdf for reference
+3. Communicate with yaofu about array2rnaseq project:
+	* u133:
+		* data:
+			rna_seq_exprs_t_matched.rds
+		        micro_exprs_matched.rds
+		* code: go through code
+	* array2rnaseq: 
+		* objective
+		* workflow
+
+
+Todo:
+1. continue transfer array2rnaseq to yaofu;
+2. get to know .pdf about dataset written by noel;
+
+			
